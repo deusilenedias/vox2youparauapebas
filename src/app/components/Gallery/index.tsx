@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { HeroCardH2Span, HeroCardP3 } from '../Hero/HeroComponents'
-import { BgBackgroundWhite } from '../SectionColor/ColorComponent'
+// import { BgBackgroundWhite } from '../SectionColor/ColorComponent'
 import { playfair_display } from '@/app/fonts'
 import img1 from '../../../../public/alunos/turma1.jpg'
 import img2 from '../../../../public/alunos/aluno1.jpg'
