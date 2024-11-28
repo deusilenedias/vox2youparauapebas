@@ -49,7 +49,7 @@ export default function Home() {
                 esse medo pode ser transformado em confiança e eloquência.
               </HeroCardP2>
             </HeroCardText>
-            <ButtonHome href="https://go.hotmart.com/P96403660J">
+            <ButtonHome href="#">
               <ButtonHomeText>Quero mais informações</ButtonHomeText>
               <ButtonHomeFlex>
                 <WhatsappLogo
