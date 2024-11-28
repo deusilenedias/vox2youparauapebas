@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { HeroCardH2Span, HeroCardP3 } from '../Hero/HeroComponents'
-// import { BgBackgroundWhite } from '../SectionColor/ColorComponent'
 import { playfair_display } from '@/app/fonts'
 import img1 from '../../../../public/alunos/turma1.jpg'
 import img2 from '../../../../public/alunos/aluno1.jpg'
@@ -11,7 +10,6 @@ import img6 from '../../../../public/alunos/turma-alfa.jpeg'
 export function Gallery() {
   return (
     <>
-      {/* <BgBackgroundWhite> */}
       <section className="bg-white">
         <div className="mx-auto max-w-screen-xl gap-x-12 px-4 pt-20 md:flex md:px-8">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8">
@@ -82,7 +80,6 @@ export function Gallery() {
           </div>
         </div>
       </section>
-      {/* </BgBackgroundWhite> */}
     </>
   )
 }
