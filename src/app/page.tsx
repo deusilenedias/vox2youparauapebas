@@ -18,7 +18,6 @@ import {
 } from './components/Buttons/ButtonCta'
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 import { Gallery } from './components/Gallery'
-// import { Benefits } from './components/Benefits'
 
 export default function Home() {
   return (
@@ -63,7 +62,6 @@ export default function Home() {
         </HeroProperty>
       </HeroSection>
       <Gallery />
-      {/* <Benefits /> */}
       <ButtonFloatWttp />
     </>
   )
