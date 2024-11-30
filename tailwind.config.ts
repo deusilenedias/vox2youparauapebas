@@ -10,7 +10,9 @@ export default {
     extend: {
       colors: {
         brandYellow: '#eda420',
+        brandCreme: '#90794d',
         brandCyan: '#05aaa8',
+        brandPurple: '#6a3e78',
         brandGreen400: '#61ce70',
         brandGray50: '#f0f0f0',
         brandGray100: '#7a7a7a',

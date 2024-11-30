@@ -18,6 +18,9 @@ import {
 } from './components/Buttons/ButtonCta'
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 import { Gallery } from './components/Gallery'
+import { Stats } from './components/Stats'
+import { Benefits } from './components/Benefits'
+import { Vox } from './components/Vox'
 
 export default function Home() {
   return (
@@ -31,7 +34,7 @@ export default function Home() {
                 width={500}
                 height={500}
                 className="h-auto w-64 sm:h-auto sm:w-72"
-                alt="Logo Genograma"
+                alt="Logo Vox2You"
                 loading="lazy"
               />
             </HeroImgProperty>
@@ -49,7 +52,7 @@ export default function Home() {
                 esse medo pode ser transformado em confiança e eloquência.
               </HeroCardP2>
             </HeroCardText>
-            <ButtonHome href="#">
+            <ButtonHome href="https://api.whatsapp.com/send?phone=5594981342011&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informações%20sobre%20oratória">
               <ButtonHomeText>Quero mais informações</ButtonHomeText>
               <ButtonHomeFlex>
                 <WhatsappLogo
@@ -60,8 +63,11 @@ export default function Home() {
             </ButtonHome>
           </HeroCard>
         </HeroProperty>
+        <Stats />
       </HeroSection>
+      <Benefits />
       <Gallery />
+      <Vox />
       <ButtonFloatWttp />
     </>
   )

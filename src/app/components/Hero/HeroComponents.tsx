@@ -1,5 +1,5 @@
 import { ComponentProps } from 'react'
-import { playfair_display } from '@/app/fonts'
+import { montserrat, playfair_display } from '@/app/fonts'
 
 export interface HeroComponents {
   className: string
@@ -29,7 +29,7 @@ type HeroPropertyProps = ComponentProps<'div'>
 export function HeroProperty(props: HeroPropertyProps) {
   return (
     <div className="mt-60 pt-8 sm:my-16 sm:py-8">
-      <div className="mx-auto max-w-screen-xl justify-between px-4 md:flex md:px-8">
+      <div className="mx-auto max-w-6xl justify-between px-4 md:flex sm:px-5">
         <div className="max-w-2xl space-y-4" {...props} />
       </div>
     </div>
@@ -57,7 +57,7 @@ type HeroCardH1Props = ComponentProps<'h1'>
 export function HeroCardH1(props: HeroCardH1Props) {
   return (
     <h1
-      className={`${playfair_display.className} antialiased mt-0 sm:mt-4 pb-2 text-3xl italic capitalize font-medium text-white drop-shadow-lg sm:text-4xl`}
+      className={`${montserrat.className} antialiased mt-0 sm:mt-4 pb-2 text-3xl font-bold text-white drop-shadow-lg sm:text-4xl`}
       {...props}
     />
   )
@@ -66,17 +66,13 @@ export function HeroCardH1(props: HeroCardH1Props) {
 type HeroCardH1SpanProps = ComponentProps<'span'>
 
 export function HeroCardH1Span(props: HeroCardH1SpanProps) {
-  return (
-    <span className="bg-clip-text font-semibold text-brandYellow" {...props} />
-  )
+  return <span className="font-extrabold text-brandYellow" {...props} />
 }
 
 type HeroCardH2SpanProps = ComponentProps<'span'>
 
 export function HeroCardH2Span(props: HeroCardH2SpanProps) {
-  return (
-    <span className="bg-clip-text font-semibold text-brandCyan" {...props} />
-  )
+  return <span className="font-semibold text-brandCyan" {...props} />
 }
 
 type HeroCardP1Props = ComponentProps<'p'>

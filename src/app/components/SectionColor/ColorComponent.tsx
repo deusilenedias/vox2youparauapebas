@@ -17,28 +17,12 @@ export function BgBackgroundGradient(props: BgBackgroundGradientProps) {
   )
 }
 
-type BgBackgroundWhiteProps = ComponentProps<'div'>
-
-export function BgBackgroundWhite(props: BgBackgroundWhiteProps) {
-  return (
-    <>
-      <div
-        className="bg-brandGray50/60 rounded-lg max-w-6xl mx-auto backdrop-blur-sm px-4 md:flex md:px-8"
-        {...props}
-      />
-    </>
-  )
-}
-
 type BgBackgroundBlackProps = ComponentProps<'div'>
 
 export function BgBackgroundBlack(props: BgBackgroundBlackProps) {
   return (
     <>
-      <div
-        className="bg-gradient-to-tr backdrop-blur-sm from-brandYellow"
-        {...props}
-      />
+      <div className="bg-black/60 backdrop-blur-md" {...props} />
     </>
   )
 }
