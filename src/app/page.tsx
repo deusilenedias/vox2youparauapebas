@@ -22,6 +22,8 @@ import { Stats } from './components/Stats'
 import { Benefits } from './components/Benefits'
 import { Vox } from './components/Vox'
 import { LogoClouds } from './components/LogoClouds'
+import { Autority } from './components/Autority'
+import { TeamVox } from './components/TeamVox'
 
 export default function Home() {
   return (
@@ -67,9 +69,11 @@ export default function Home() {
         <Stats />
       </HeroSection>
       <Benefits />
+      <Autority />
       <Gallery />
       <Vox />
       <LogoClouds />
+      <TeamVox />
       <ButtonFloatWttp />
     </>
   )

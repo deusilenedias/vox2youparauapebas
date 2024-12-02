@@ -11,7 +11,7 @@ export function Gallery() {
   return (
     <>
       <section className="bg-brandGray50">
-        <div className="mx-auto max-w-6xl gap-x-12 px-4 pt-20 md:flex md:px-8">
+        <div className="mx-auto max-w-6xl px-4 pt-20 md:flex md:px-8">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8">
             <div>
               <div className="max-w-3xl md:max-w-none px-4">

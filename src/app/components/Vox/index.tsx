@@ -8,8 +8,8 @@ export function Vox() {
   return (
     <>
       <section className="bg-brandGray800">
-        <div className="mx-auto px-12 py-16 sm:max-w-6xl">
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8">
+        <div className="mx-auto px-8 md:px-12 py-16 sm:max-w-6xl">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:items-center md:gap-8">
             <div
               className={`${playfair_display.className} font-medium max-w-lg md:max-w-none`}
             >
@@ -22,7 +22,7 @@ export function Vox() {
                 Dá um {''}
               </h1>
               <p className="text-6xl text-brandGray50 italic text-center sm:text-left sm:text-8xl py-4">
-                <span className="max-w- ml-16 before:block before:absolute before:-inset-1 before:-skew-y-3 before:rounded-lg before:bg-brandCyan relative inline-block">
+                <span className="max-w- ml-16 before:block before:absolute before:-inset-4 before:-skew-y-3 before:rounded-lg before:bg-brandCyan/60 relative inline-block">
                   <span className="-ml-6 relative text-6xl drop-shadow-lg shadow-black text-brandYellow italic text-left sm:text-8xl">
                     VOX{' '}
                   </span>
@@ -44,7 +44,7 @@ export function Vox() {
                 playlist={false}
                 params="autoplay=1&rel=0"
                 rel="preload"
-                title="Carol Lemos"
+                title="Alunos"
               />
             </div>
 
@@ -55,7 +55,7 @@ export function Vox() {
                 playlist={false}
                 params="autoplay=1&rel=0"
                 rel="preload"
-                title="Carol Lemos"
+                title="Alunos"
               />
             </div>
 
@@ -66,7 +66,7 @@ export function Vox() {
                 playlist={false}
                 params="autoplay=1&rel=0"
                 rel="preload"
-                title="Carol Lemos"
+                title="Alunos"
               />
             </div>
 
@@ -77,7 +77,7 @@ export function Vox() {
                 playlist={false}
                 params="autoplay=1&rel=0"
                 rel="preload"
-                title="Carol Lemos"
+                title="Alunos"
               />
             </div>
 
@@ -88,7 +88,7 @@ export function Vox() {
                 playlist={false}
                 params="autoplay=1&rel=0"
                 rel="preload"
-                title="Carol Lemos"
+                title="Alunos"
               />
             </div>
           </div>
