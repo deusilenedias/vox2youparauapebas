@@ -1,5 +1,5 @@
 import { ComponentProps } from 'react'
-import { montserrat, playfair_display } from '@/app/fonts'
+import { montserrat } from '@/app/fonts'
 
 export interface HeroComponents {
   className: string
