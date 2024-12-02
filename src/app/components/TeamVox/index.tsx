@@ -9,12 +9,12 @@ export function TeamVox() {
   const team = [
     {
       avatar: geyzon,
-      name: 'Geyzon Magalhães',
+      name: 'Geizon Magalhães',
       title: 'Franqueado Vox2You Parauapebas/PA',
     },
     {
       avatar: deusi,
-      name: 'Desuline Dias',
+      name: 'Deusilene Dias',
       title: 'Franqueada Vox2You Parauapebas/PA',
     },
     {
