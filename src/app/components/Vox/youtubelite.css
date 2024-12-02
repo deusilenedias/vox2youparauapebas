@@ -1,5 +1,5 @@
 .yt-lite {
-  background-color: rgb(5, 170, 168);
+  background-color: rgba(237, 164, 32);
   position: relative;
   display: block;
   contain: content;
@@ -7,9 +7,9 @@
   background-size: cover;
   cursor: pointer;
   border-radius: 12px;
-  -webkit-box-shadow: -2px 6px 26px 0px rgba(5, 170, 168);
-  -moz-box-shadow: -2px 6px 26px 0px rgba(5, 170, 168);
-  box-shadow: -2px 6px 26px 0px rgba(5, 170, 168);
+  -webkit-box-shadow: -2px 6px 26px 0px rgba(237, 164, 32);
+  -moz-box-shadow: -2px 6px 26px 0px rgba(237, 164, 32);
+  box-shadow: -2px 6px 26px 0px rgba(237, 164, 32);
 }
 
 /* gradient */

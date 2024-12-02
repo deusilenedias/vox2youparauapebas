@@ -21,6 +21,7 @@ import { Gallery } from './components/Gallery'
 import { Stats } from './components/Stats'
 import { Benefits } from './components/Benefits'
 import { Vox } from './components/Vox'
+import { LogoClouds } from './components/LogoClouds'
 
 export default function Home() {
   return (
@@ -68,6 +69,7 @@ export default function Home() {
       <Benefits />
       <Gallery />
       <Vox />
+      <LogoClouds />
       <ButtonFloatWttp />
     </>
   )

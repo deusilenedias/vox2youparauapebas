@@ -9,7 +9,7 @@ import imgIntensivox from '../../../../public/programas/intensivox.webp'
 export function Benefits() {
   return (
     <>
-      <section className="bg-brandGray50 scroll-smooth">
+      <section className="bg-brandGray50">
         <div className="mx-auto max-w-6xl px-9 py-8 md:px-8">
           <div className="mx-auto max-w-4xl space-y-5 px-4 py-8 text-center">
             <h2
@@ -39,6 +39,7 @@ export function Benefits() {
                         src={imgAcademy}
                         className="h-56 w-full object-cover group-hover:duration-150 group-hover:scale-125"
                         sizes="100vh"
+                        loading="lazy"
                       />
                     </div>
                     <div className="group-hover:bg-brandCyan group-hover:transition group-hover:rounded-b-lg p-4 sm:p-6">
@@ -63,6 +64,7 @@ export function Benefits() {
                         src={imgMaster}
                         className="h-56 w-full object-cover group-hover:duration-150 group-hover:scale-125"
                         sizes="100vh"
+                        loading="lazy"
                       />
                     </div>
                     <div className="group-hover:bg-brandCreme group-hover:transition group-hover:rounded-b-lg p-4 sm:p-6">
@@ -86,6 +88,7 @@ export function Benefits() {
                         src={imgIntensivox}
                         className="h-56 w-full object-cover group-hover:duration-150 group-hover:scale-125"
                         sizes="100vh"
+                        loading="lazy"
                       />
                     </div>
                     <div className="group-hover:bg-brandPurple group-hover:transition group-hover:rounded-b-lg p-4 sm:p-6">

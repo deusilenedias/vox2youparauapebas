@@ -15,6 +15,11 @@ export function Gallery() {
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8">
             <div>
               <div className="max-w-3xl md:max-w-none px-4">
+                <div className="mb-2">
+                  <span className="inline-block h-1 w-40 rounded-full bg-brandCyan"></span>
+                  <span className="ml-1 inline-block h-1 w-3 rounded-full bg-brandCyan"></span>
+                  <span className="ml-1 inline-block h-1 w-1 rounded-full bg-brandCyan"></span>
+                </div>
                 <h2
                   className={`${montserrat.className} antialiased uppercase text-3xl font-semibold text-brandGray800 text-center sm:text-left sm:text-4xl`}
                 >
@@ -38,6 +43,7 @@ export function Gallery() {
                   src={img1}
                   alt="turma"
                   sizes="100vw"
+                  loading="lazy"
                 />
               </div>
               <div className="overflow-hidden shadow-*-lg shadow-brandCyan">
@@ -46,6 +52,7 @@ export function Gallery() {
                   src={img2}
                   alt="turma"
                   sizes="100vw"
+                  loading="lazy"
                 />
               </div>
               <div className="overflow-hidden shadow-*-lg shadow-brandCyan">
@@ -54,6 +61,7 @@ export function Gallery() {
                   src={img5}
                   alt="turma"
                   sizes="100vw"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -67,6 +75,7 @@ export function Gallery() {
                 src={img6}
                 alt="turma"
                 sizes="100vw"
+                loading="lazy"
               />
             </div>
             <div className="rounded-br-lg overflow-hidden shadow-*-lg shadow-brandCyan">
@@ -75,6 +84,7 @@ export function Gallery() {
                 src={img4}
                 alt="turma"
                 sizes="100vw"
+                loading="lazy"
               />
             </div>
           </div>
