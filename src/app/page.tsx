@@ -3,12 +3,12 @@ import { ButtonFloatWttp } from './components/Buttons'
 import {
   HeroCard,
   HeroCardH1,
-  HeroCardH1Span,
   HeroCardP2,
   HeroCardText,
   HeroImgProperty,
   HeroProperty,
   HeroSection,
+  Span1,
 } from './components/Hero/HeroComponents'
 import LogoVoBranca from '/public/logo-vox-branca.png'
 import {
@@ -47,9 +47,9 @@ export default function Home() {
               <HeroCardH1>
                 Você já perdeu oportunidades por não saber se comunicar bem?{' '}
                 {''}
-                <HeroCardH1Span>
+                <Span1>
                   Domine a arte de falar em público e transforme sua vida!
-                </HeroCardH1Span>
+                </Span1>
               </HeroCardH1>
               <HeroCardP2>
                 São mais de 80 técnicas e 120 dinâmicas para você falar em

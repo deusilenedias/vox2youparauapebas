@@ -1,5 +1,5 @@
 import { montserrat } from '@/app/fonts'
-import { HeroCardH2Span } from '../Hero/HeroComponents'
+import { Span1 } from '../Hero/HeroComponents'
 import Image from 'next/image'
 import geyzon from '../../../../public/timevox/geyzon.jpeg'
 import deusi from '../../../../public/timevox/deusi.jpeg'
@@ -49,8 +49,7 @@ export function TeamVox() {
                 <h2
                   className={`${montserrat.className} antialiased uppercase text-3xl font-semibold text-brandGray50 text-center sm:text-4xl`}
                 >
-                  Conheça o time{' '}
-                  <HeroCardH2Span> vox2you parauapebas/PA</HeroCardH2Span>
+                  Conheça o time <Span1> vox2you parauapebas/PA</Span1>
                 </h2>
                 <p
                   className={`${montserrat.className} text-center font-medium text-brandGray50 pt-4`}

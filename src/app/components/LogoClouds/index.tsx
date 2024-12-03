@@ -8,7 +8,7 @@ import imgLogo6 from '../../../../public/logo-empresas/sicredi2.webp'
 import imgLogo7 from '../../../../public/logo-empresas/itau2.webp'
 import imgLogo8 from '../../../../public/logo-empresas/tvoeste.webp'
 import { montserrat } from '@/app/fonts'
-import { HeroCardH2Span } from '../Hero/HeroComponents'
+import { Span1 } from '../Hero/HeroComponents'
 
 export function LogoClouds() {
   return (
@@ -26,8 +26,7 @@ export function LogoClouds() {
               <h2
                 className={`${montserrat.className} pt-2 antialiased uppercase text-3xl font-semibold text-brandGray800 text-center sm:text-left sm:text-4xl`}
               >
-                Empresas que{' '}
-                <HeroCardH2Span> confiam na Vox2you</HeroCardH2Span>
+                Empresas que <Span1> confiam na Vox2you</Span1>
               </h2>
             </div>
             <div className="mt-12 flex justify-center">

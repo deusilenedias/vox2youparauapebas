@@ -1,5 +1,5 @@
 import { montserrat } from '@/app/fonts'
-import { HeroCardH2Span } from '../Hero/HeroComponents'
+import { Span2 } from '../Hero/HeroComponents'
 
 export function Faq() {
   const faqList = [
@@ -36,8 +36,7 @@ export function Faq() {
                   <h2
                     className={`${montserrat.className} antialiased uppercase text-3xl font-semibold text-brandGray800 text-center sm:text-4xl`}
                   >
-                    Faq de{' '}
-                    <HeroCardH2Span> Perguntas e Respostas</HeroCardH2Span>
+                    Faq de <Span2> Perguntas e Respostas</Span2>
                   </h2>
                   <p
                     className={`${montserrat.className} text-center font-medium text-brandGray800 pt-2`}
@@ -56,11 +55,7 @@ export function Faq() {
                   tabIndex={0}
                   className="collapse collapse-arrow rounded-lg bg-brandYellow shadow-brandGray800/30 shadow-md"
                 >
-                  <input
-                    type="checkbox"
-                    className="peer"
-                    aria-label="checkbox"
-                  />
+                  <input type="checkbox" aria-label="checkbox" />
                   <div className="collapse-title font-sans font-bold text-brandGray800">
                     {item.title}
                   </div>

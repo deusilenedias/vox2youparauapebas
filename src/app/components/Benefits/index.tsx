@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { HeroCardH1Span } from '../Hero/HeroComponents'
+import { SpanYellow } from '../Hero/HeroComponents'
 import { montserrat } from '@/app/fonts'
 import Image from 'next/image'
 import imgAcademy from '../../../../public/programas/academy.webp'
@@ -16,10 +16,10 @@ export function Benefits() {
               className={`${montserrat.className} antialiased text-3xl text-brandGray800 font-semibold uppercase text-center sm:text-4xl`}
             >
               Nós criamos as melhores rotas, {''}
-              <HeroCardH1Span>
+              <SpanYellow>
                 {' '}
                 mas a decisão de transformação está dentro de você.
-              </HeroCardH1Span>
+              </SpanYellow>
             </h2>
             <p
               className={`${montserrat.className} font-medium text-brandGray800`}

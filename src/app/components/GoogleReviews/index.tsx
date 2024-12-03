@@ -6,7 +6,7 @@ import {
   ButtonHomeText,
 } from '../Buttons/ButtonCta'
 import imgGoogle from '../../../../public/logo-empresas/logo-google.png'
-import { HeroCardH1Span } from '../Hero/HeroComponents'
+import { Span2 } from '../Hero/HeroComponents'
 import { montserrat } from '@/app/fonts'
 
 export function GoogleReviews() {
@@ -117,8 +117,7 @@ export function GoogleReviews() {
                   <h2
                     className={`${montserrat.className} antialiased uppercase text-3xl font-semibold text-brandGray800 sm:text-4xl`}
                   >
-                    O que os nossos alunos dizem{' '}
-                    <HeroCardH1Span> sobre nós</HeroCardH1Span>
+                    O que os nossos alunos dizem <Span2> sobre nós</Span2>
                   </h2>
                 </div>
               </div>

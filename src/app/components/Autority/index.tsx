@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { HeroCardH1Span } from '../Hero/HeroComponents'
+import { Span1 } from '../Hero/HeroComponents'
 import veja from '../../../../public/logo-empresas/veja.webp'
 import uol from '../../../../public/logo-empresas/uol.webp'
 import g1 from '../../../../public/logo-empresas/g1.webp'
@@ -15,10 +15,9 @@ export function Autority() {
                 na mídia
               </h3>
               <p className="text-white text-2xl font-medium sm:text-3xl">
-                Dezenas de escolas e{' '}
-                <HeroCardH1Span>mais de 55 mil alunos</HeroCardH1Span> pelo país
-                são a prova de que não estamos para brincadeira quando o assunto
-                é <HeroCardH1Span>transformar vidas</HeroCardH1Span>.
+                Dezenas de escolas e <Span1>mais de 55 mil alunos</Span1> pelo
+                país são a prova de que não estamos para brincadeira quando o
+                assunto é <Span1>transformar vidas</Span1>.
               </p>
             </div>
             <div className="flex-none mt-12 text-white lg:mt-0">

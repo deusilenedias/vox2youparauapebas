@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { HeroCardH2Span, HeroCardP3 } from '../Hero/HeroComponents'
+import { Span2, HeroCardP3 } from '../Hero/HeroComponents'
 import { montserrat } from '@/app/fonts'
 import img1 from '../../../../public/alunos/turma1.jpg'
 import img2 from '../../../../public/alunos/aluno1.jpg'
@@ -24,7 +24,7 @@ export function Gallery() {
                   className={`${montserrat.className} antialiased uppercase text-3xl font-semibold text-brandGray800 text-center sm:text-left sm:text-4xl`}
                 >
                   A oratória é uma habilidade{' '}
-                  <HeroCardH2Span> que pode ser treinada</HeroCardH2Span>
+                  <Span2> que pode ser treinada</Span2>
                 </h2>
 
                 <HeroCardP3>

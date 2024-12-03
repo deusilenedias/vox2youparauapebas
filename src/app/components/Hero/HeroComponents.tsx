@@ -63,16 +63,22 @@ export function HeroCardH1(props: HeroCardH1Props) {
   )
 }
 
-type HeroCardH1SpanProps = ComponentProps<'span'>
+type Span1Props = ComponentProps<'span'>
 
-export function HeroCardH1Span(props: HeroCardH1SpanProps) {
+export function Span1(props: Span1Props) {
   return <span className="font-extrabold text-brandYellow" {...props} />
 }
 
-type HeroCardH2SpanProps = ComponentProps<'span'>
+type SpanYellowProps = ComponentProps<'span'>
 
-export function HeroCardH2Span(props: HeroCardH2SpanProps) {
-  return <span className="font-semibold text-brandCyan" {...props} />
+export function SpanYellow(props: SpanYellowProps) {
+  return <span className="font-extrabold text-cyan-700" {...props} />
+}
+
+type Span2Props = ComponentProps<'span'>
+
+export function Span2(props: Span2Props) {
+  return <span className="font-extrabold text-brandGray800" {...props} />
 }
 
 type HeroCardP1Props = ComponentProps<'p'>
