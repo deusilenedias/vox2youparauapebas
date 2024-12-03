@@ -21,6 +21,8 @@ export default {
       backgroundImage: {
         bgDesktop: "url('/vox-desktop.webp')",
         bgMobile: "url('/vox-mobile.webp')",
+        bgDesktopGoogle: "url('/reviewsgoogle.webp')",
+        bgMobileGoogle: "url('/reviewsgoogle.webp')",
       },
     },
   },

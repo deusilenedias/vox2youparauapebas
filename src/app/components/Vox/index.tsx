@@ -3,6 +3,12 @@
 import { montserrat, playfair_display } from '@/app/fonts'
 import LiteYouTubeEmbed from 'react-lite-youtube-embed'
 import './youtubelite.css'
+import {
+  ButtonHome,
+  ButtonHomeFlex,
+  ButtonHomeText,
+} from '../Buttons/ButtonCta'
+import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 
 export function Vox() {
   return (
@@ -91,6 +97,17 @@ export function Vox() {
                 title="Alunos"
               />
             </div>
+          </div>
+          <div className="mx-auto max-w-fit px-4 pt-4 text-center sm:pt-12">
+            <ButtonHome href="https://api.whatsapp.com/send?phone=5594981342011&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informações%20sobre%20oratória">
+              <ButtonHomeText>Quero mais informações</ButtonHomeText>
+              <ButtonHomeFlex>
+                <WhatsappLogo
+                  className="h-5 w-5 sm:h-6 sm:w-6 fill-white drop-shadow-lg"
+                  weight="fill"
+                />
+              </ButtonHomeFlex>
+            </ButtonHome>
           </div>
         </div>
       </section>
