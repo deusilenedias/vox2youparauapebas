@@ -45,6 +45,34 @@ export function Vox() {
 
             <div className="h-auto max-w-6xl w-full items-center object-cover">
               <LiteYouTubeEmbed
+                webp={true}
+                adNetwork={true}
+                noCookie={true}
+                id="xCEhLgPFANE"
+                playlist={false}
+                params="autoplay=1&rel=0"
+                rel="preload"
+                title="Alunos"
+              />
+            </div>
+
+            <div className="h-auto max-w-6xl w-full items-center object-cover">
+              <LiteYouTubeEmbed
+                webp={true}
+                adNetwork={true}
+                noCookie={true}
+                id="KRLijmvrWr8"
+                playlist={false}
+                params="autoplay=1&rel=0"
+                rel="preload"
+                title="Alunos"
+              />
+            </div>
+
+            <div className="h-auto max-w-6xl w-full items-center object-cover">
+              <LiteYouTubeEmbed
+                webp={true}
+                adNetwork={true}
                 noCookie={true}
                 id="Dyh2AqxRNHQ"
                 playlist={false}
@@ -56,6 +84,8 @@ export function Vox() {
 
             <div className="h-auto max-w-6xl w-full items-center object-cover">
               <LiteYouTubeEmbed
+                webp={true}
+                adNetwork={true}
                 noCookie={true}
                 id="GPHewPZpl6c"
                 playlist={false}
@@ -67,6 +97,8 @@ export function Vox() {
 
             <div className="h-auto max-w-6xl w-full items-center object-cover">
               <LiteYouTubeEmbed
+                webp={true}
+                adNetwork={true}
                 noCookie={true}
                 id="UKks7rfz3jA"
                 playlist={false}
@@ -78,6 +110,8 @@ export function Vox() {
 
             <div className="h-auto max-w-6xl w-full items-center object-cover">
               <LiteYouTubeEmbed
+                webp={true}
+                adNetwork={true}
                 noCookie={true}
                 id="jVXBiCuXhXE"
                 playlist={false}
@@ -89,6 +123,8 @@ export function Vox() {
 
             <div className="h-auto max-w-6xl w-full items-center object-cover">
               <LiteYouTubeEmbed
+                webp={true}
+                adNetwork={true}
                 noCookie={true}
                 id="f2yvzub6f2M"
                 playlist={false}

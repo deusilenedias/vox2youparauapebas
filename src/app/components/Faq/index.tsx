@@ -1,11 +1,3 @@
-'use client'
-
-import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
-import {
-  ButtonHome,
-  ButtonHomeFlex,
-  ButtonHomeText,
-} from '../Buttons/ButtonCta'
 import { montserrat } from '@/app/fonts'
 import { HeroCardH2Span } from '../Hero/HeroComponents'
 
