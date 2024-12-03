@@ -25,6 +25,7 @@ import { LogoClouds } from './components/LogoClouds'
 import { Autority } from './components/Autority'
 import { TeamVox } from './components/TeamVox'
 import { GoogleReviews } from './components/GoogleReviews'
+import { Faq } from './components/Faq'
 
 export default function Home() {
   return (
@@ -76,6 +77,7 @@ export default function Home() {
       <LogoClouds />
       <TeamVox />
       <GoogleReviews />
+      <Faq />
       <ButtonFloatWttp />
     </>
   )
