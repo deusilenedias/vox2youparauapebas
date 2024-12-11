@@ -102,7 +102,7 @@ export function ImageCarousel() {
             key={index}
             onClick={() => handleThumbClick(index)}
             className={`w-3 h-3 rounded-full ${index === selectedIndex ? 'bg-brandCyan' : 'bg-brandGray100'}`}
-          ></button>
+          />
         ))}
       </div>
 

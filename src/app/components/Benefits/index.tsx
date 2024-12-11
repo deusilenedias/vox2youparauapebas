@@ -31,8 +31,8 @@ export function Benefits() {
 
           <div className="relative mx-auto pt-4 sm:pt-2">
             <ul className="grid gap-8 sm:grid-cols-1 lg:grid-cols-3">
-              <Link href="https://api.whatsapp.com/send?phone=5594981342011&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Academy">
-                <li>
+              <li>
+                <Link href="https://api.whatsapp.com/send?phone=5594981342011&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Academy">
                   <article className="group rounded-lg shadow-lg shadow-brandCyan/60 transition hover:shadow-lg hover:shadow-brandCyan">
                     <div className="overflow-hidden rounded-t-lg">
                       <Image
@@ -60,10 +60,10 @@ export function Benefits() {
                       </p>
                     </div>
                   </article>
-                </li>
-              </Link>
-              <Link href="https://api.whatsapp.com/send?phone=5594981342011&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Master">
-                <li>
+                </Link>
+              </li>
+              <li>
+                <Link href="https://api.whatsapp.com/send?phone=5594981342011&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Master">
                   <article className="group shadow-lg shadow-brandCreme/60 rounded-lg transition hover:shadow-lg hover:shadow-brandCreme">
                     <div className="overflow-hidden rounded-t-lg">
                       <Image
@@ -90,10 +90,11 @@ export function Benefits() {
                       </p>
                     </div>
                   </article>
-                </li>
-              </Link>
-              <Link href="https://api.whatsapp.com/send?phone=5594981342011&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Intensivox">
-                <li>
+                </Link>
+              </li>
+
+              <li>
+                <Link href="https://api.whatsapp.com/send?phone=5594981342011&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Intensivox">
                   <article className="shadow-lg shadow-brandPurple/60 group rounded-lg transition hover:shadow-lg hover:shadow-brandPurple">
                     <div className="overflow-hidden rounded-t-lg">
                       <Image
@@ -120,8 +121,8 @@ export function Benefits() {
                       </p>
                     </div>
                   </article>
-                </li>
-              </Link>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

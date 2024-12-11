@@ -15,6 +15,7 @@ export function Footer() {
               height="100%"
               className="absolute inset-0 w-full"
               loading="lazy"
+              title="Google Maps"
             ></iframe>
           </div>
         </div>
