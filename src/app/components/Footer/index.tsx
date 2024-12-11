@@ -85,12 +85,12 @@ export function Footer() {
             </li>
           </ul>
 
-          <ul className="pt-6 flex flex-wrap justify-center gap-6">
+          <ul className="pt-6 flex flex-wrap justify-center gap-6 text-sm">
             <li>
               <Link
                 href="/politicas/avisolegal"
                 target="_blank"
-                className="text-brandCyan transition hover:text-brandCyan/75"
+                className="text-brandGray100 transition hover:text-brandGray100/75"
               >
                 Aviso Legal
               </Link>
@@ -100,7 +100,7 @@ export function Footer() {
               <Link
                 href="/politicas/termosecondicoes"
                 target="_blank"
-                className="text-brandCyan transition hover:text-brandCyan/75"
+                className="text-brandGray100 transition hover:text-brandGray100/75"
               >
                 Termos de Uso
               </Link>
@@ -110,7 +110,7 @@ export function Footer() {
               <Link
                 href="/politicas/politicadeprivacidade"
                 target="_blank"
-                className="text-brandCyan transition hover:text-brandCyan/75"
+                className="text-brandGray100 transition hover:text-brandGray100/75"
               >
                 Política de Privacidade
               </Link>
