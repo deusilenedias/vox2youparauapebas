@@ -88,16 +88,6 @@ export function Footer() {
           <ul className="pt-6 flex flex-wrap justify-center gap-6 text-sm">
             <li>
               <Link
-                href="/politicas/avisolegal"
-                target="_blank"
-                className="text-brandGray100 transition hover:text-brandGray100/75"
-              >
-                Aviso Legal
-              </Link>
-            </li>
-
-            <li>
-              <Link
                 href="/politicas/termosecondicoes"
                 target="_blank"
                 className="text-brandGray100 transition hover:text-brandGray100/75"

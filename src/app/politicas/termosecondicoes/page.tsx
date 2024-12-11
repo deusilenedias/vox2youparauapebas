@@ -53,8 +53,8 @@ export default function Home() {
               propriedade dos materiais; ou
             </li>
             <li className="list-inside indent-8">
-              transferir os materiais para outra pessoa ou 'espelhe' os
-              materiais em qualquer outro servidor.
+              transferir os materiais para outra pessoa ou &apos;espelhe&apos;
+              os materiais em qualquer outro servidor.
             </li>
           </ul>
 
@@ -87,13 +87,13 @@ export default function Home() {
             Em nenhum caso o Vox2You Parauapebas ou seus fornecedores serão
             responsáveis ​​por quaisquer danos (incluindo, sem limitação, danos
             por perda de dados ou lucro ou devido a interrupção dos negócios)
-            decorrentes do uso ou da incapacidade de usar os materiais em Brow
-            Extension Pro 4.0, mesmo que Vox2You Parauapebas ou um representante
-            autorizado da Vox2You Parauapebas tenha sido notificado oralmente ou
-            por escrito da possibilidade de tais danos. Como algumas jurisdições
-            não permitem limitações em garantias implícitas, ou limitações de
-            responsabilidade por danos conseqüentes ou incidentais, essas
-            limitações podem não se aplicar a você.
+            decorrentes do uso ou da incapacidade de usar os materiais em
+            Vox2You Parauapebas, mesmo que Vox2You Parauapebas ou um
+            representante autorizado da Vox2You Parauapebas tenha sido
+            notificado oralmente ou por escrito da possibilidade de tais danos.
+            Como algumas jurisdições não permitem limitações em garantias
+            implícitas, ou limitações de responsabilidade por danos conseqüentes
+            ou incidentais, essas limitações podem não se aplicar a você.
           </p>
 
           <h2 className="text-justify font-black pb-2 text-zinc-300 text-3xl md:text-xl sm:text-2xl">
@@ -117,9 +117,9 @@ export default function Home() {
           <p className="text-zinc-200 text-justify text-sm sm:text-base">
             O Vox2You Parauapebas não analisou todos os sites vinculados ao seu
             site e não é responsável pelo conteúdo de nenhum site vinculado. A
-            inclusão de qualquer link não implica endosso por Brow Extension Pro
-            4.0 do site. O uso de qualquer site vinculado é por conta e risco do
-            usuário.
+            inclusão de qualquer link não implica endosso por Vox2You
+            Parauapebas do site. O uso de qualquer site vinculado é por conta e
+            risco do usuário.
           </p>
 
           <p className="text-zinc-200 text-justify text-sm sm:text-base">

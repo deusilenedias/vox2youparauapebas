@@ -1,8 +1,8 @@
-import Image from 'next/image'
+// import Image from 'next/image'
 import { Span1 } from '../Hero/HeroComponents'
-import veja from '../../../../public/logo-empresas/veja.webp'
-import uol from '../../../../public/logo-empresas/uol.webp'
-import g1 from '../../../../public/logo-empresas/g1.webp'
+// import veja from '../../../../public/logo-empresas/veja.webp'
+// import uol from '../../../../public/logo-empresas/uol.webp'
+// import g1 from '../../../../public/logo-empresas/g1.webp'
 
 export function Autority() {
   return (
