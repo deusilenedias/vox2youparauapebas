@@ -63,12 +63,16 @@ export function ImageCarousel() {
     <div className="p-4 space-y-8 container max-w-3xl mx-auto">
       <div className="relative">
         <button
+          id="buttonNextPrev"
+          title="Button Next and Prev"
           onClick={handlePrevious}
           className="h-8 w-8 rounded-full flex items-center justify-center bg-brandCyan absolute top-1/2 -translate-y-1/2 z-10 shadow-md left-4"
         >
           <ArrowLeft weight="fill" className="fill-brandGray50" />
         </button>
         <button
+          id="buttonNextPrev"
+          title="Button Next and Prev"
           onClick={handleNext}
           className="h-8 w-8 rounded-full flex items-center justify-center bg-brandCyan  absolute top-1/2 -translate-y-1/2 z-10 shadow-md right-4"
         >
@@ -99,10 +103,12 @@ export function ImageCarousel() {
       <div className="flex justify-center gap-3">
         {slides.map((slide, index) => (
           <button
+            id="buttonNextPrev"
+            title="Button Next and Prev"
             key={index}
             onClick={() => handleThumbClick(index)}
             className={`w-3 h-3 rounded-full ${index === selectedIndex ? 'bg-brandCyan' : 'bg-brandGray100'}`}
-          />
+          ></button>
         ))}
       </div>
 
@@ -111,6 +117,8 @@ export function ImageCarousel() {
           {slides.map((thumb, index) => (
             <button
               key={index}
+              id="buttonNextPrev"
+              title="Button Next and Prev"
               onClick={() => handleThumbClick(index)}
               className="flex-[0_0_28%]"
             >
