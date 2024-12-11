@@ -64,12 +64,13 @@ export default function Home() {
 
           <ul className="list-decimal text-justify text-zinc-200 text-sm sm:text-base">
             <li className="list-inside indent-8">
-              Os materiais no site da Vox2You Parauapebas são fornecidos 'como
-              estão'. Vox2You Parauapebas não oferece garantias, expressas ou
-              implícitas, e, por este meio, isenta e nega todas as outras
-              garantias, incluindo, sem limitação, garantias implícitas ou
-              condições de comercialização, adequação a um fim específico ou não
-              violação de propriedade intelectual ou outra violação de direitos.
+              Os materiais no site da Vox2You Parauapebas são fornecidos
+              &apos;como estão&apos;. Vox2You Parauapebas não oferece garantias,
+              expressas ou implícitas, e, por este meio, isenta e nega todas as
+              outras garantias, incluindo, sem limitação, garantias implícitas
+              ou condições de comercialização, adequação a um fim específico ou
+              não violação de propriedade intelectual ou outra violação de
+              direitos.
             </li>
             <li className="list-inside indent-8">
               Além disso, o Vox2You Parauapebas não garante ou faz qualquer
