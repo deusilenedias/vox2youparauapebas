@@ -1,25 +1,26 @@
 import Link from 'next/link'
-import { SpanYellow } from '../Hero/HeroComponents'
+import { Span2 } from '../Hero/HeroComponents'
 import { montserrat } from '@/app/fonts'
 import Image from 'next/image'
 import imgAcademy from '../../../../public/programas/academy.webp'
 import imgMaster from '../../../../public/programas/master.webp'
 import imgIntensivox from '../../../../public/programas/intensivox.webp'
+import { CursorClick } from '@phosphor-icons/react/dist/ssr'
 
 export function Benefits() {
   return (
     <>
-      <section className="bg-brandGray50">
+      <section>
         <div className="mx-auto max-w-6xl px-9 py-8 md:px-8">
           <div className="mx-auto max-w-4xl space-y-5 px-4 py-8 text-center">
             <h2
               className={`${montserrat.className} antialiased text-3xl text-brandGray800 font-semibold uppercase text-center sm:text-4xl`}
             >
               Nós criamos as melhores rotas, {''}
-              <SpanYellow>
+              <Span2>
                 {' '}
                 mas a decisão de transformação está dentro de você.
-              </SpanYellow>
+              </Span2>
             </h2>
             <p
               className={`${montserrat.className} font-medium text-brandGray800`}
@@ -43,9 +44,15 @@ export function Benefits() {
                       />
                     </div>
                     <div className="group-hover:bg-brandCyan group-hover:transition group-hover:rounded-b-lg p-4 sm:p-6">
-                      <h3 className="mt-0.5 text-lg text-center font-semibold uppercase text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
-                        Academy
-                      </h3>
+                      <div className="flex justify-center gap-3 items-center">
+                        <h3 className="mt-0.5 text-lg text-center font-semibold uppercase text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
+                          Academy
+                        </h3>
+                        <CursorClick
+                          className="fill-brandGray800 group-hover:fill-brandGray50"
+                          weight="fill"
+                        />
+                      </div>
                       <p className="text-center mt-2 line-clamp-3 text-sm/relaxed text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
                         Viva o desenvolvimento humano de forma contínua, levando
                         para dentro da sala de aula suas vivências pessoais,
@@ -68,9 +75,15 @@ export function Benefits() {
                       />
                     </div>
                     <div className="group-hover:bg-brandCreme group-hover:transition group-hover:rounded-b-lg p-4 sm:p-6">
-                      <h3 className="mt-0.5 text-lg text-center font-semibold uppercase text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
-                        Master
-                      </h3>
+                      <div className="flex justify-center gap-3 items-center">
+                        <h3 className="mt-0.5 text-lg text-center font-semibold uppercase text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
+                          Master
+                        </h3>
+                        <CursorClick
+                          className="fill-brandGray800 group-hover:fill-brandGray50"
+                          weight="fill"
+                        />
+                      </div>
                       <p className="text-center mt-2 line-clamp-3 text-sm/relaxed text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
                         Use o tempo a seu favor e de forma estratégica com a sua
                         vida para elevar ainda mais o seu nível no mercado.
@@ -92,9 +105,15 @@ export function Benefits() {
                       />
                     </div>
                     <div className="group-hover:bg-brandPurple group-hover:transition group-hover:rounded-b-lg p-4 sm:p-6">
-                      <h3 className="mt-0.5 text-lg text-center font-semibold uppercase text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
-                        Intensivox
-                      </h3>
+                      <div className="flex justify-center gap-3 items-center">
+                        <h3 className="mt-0.5 text-lg text-center font-semibold uppercase text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
+                          Intensivox
+                        </h3>
+                        <CursorClick
+                          className="fill-brandGray800 group-hover:fill-brandGray50"
+                          weight="fill"
+                        />
+                      </div>
                       <p className="text-center mt-2 line-clamp-3 text-sm/relaxed text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
                         Mergulhe intensivamente naquilo que realmente importa
                         para mudar o mundo e as pessoas: você.

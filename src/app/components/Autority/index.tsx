@@ -9,18 +9,18 @@ export function Autority() {
     <>
       <section className="bg-brandGray800">
         <div className="py-16">
-          <div className="max-w-6xl mx-auto px-8 flex-wrap gap-x-12 justify-between items-center md:flex md:px-8 lg:flex-nowrap">
-            <div className="max-w-xl space-y-3">
+          <div className="max-w-6xl mx-auto px-8 flex-wrap gap-x-12 justify-center items-center md:flex md:px-8 lg:flex-nowrap">
+            <div className="max-w-6xl space-y-3">
               <h3 className="text-brandCyan uppercase text-sm font-semibold">
-                na mídia
+                info
               </h3>
-              <p className="text-white text-2xl font-medium sm:text-3xl">
-                Dezenas de escolas e <Span1>mais de 55 mil alunos</Span1> pelo
+              <p className="text-white text-2xl text-center font-medium sm:text-3xl">
+                Dezenas de escolas e <Span1>mais de 80 mil alunos</Span1> pelo
                 país são a prova de que não estamos para brincadeira quando o
                 assunto é <Span1>transformar vidas</Span1>.
               </p>
             </div>
-            <div className="flex-none mt-12 text-white lg:mt-0">
+            {/* <div className="flex-none mt-12 text-white lg:mt-0">
               <ul className="grid grid-cols-3 gap-8 items-center justify-center">
                 <li>
                   <Image
@@ -50,7 +50,7 @@ export function Autority() {
                   />
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

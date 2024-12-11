@@ -4,34 +4,44 @@ import { Span2 } from '../Hero/HeroComponents'
 export function Faq() {
   const faqList = [
     {
-      title: 'Qual o prazo para o visto ser emitido?',
+      title: 'O programa de Oratória é presencial?',
       subtitle:
-        'O consulado demora em média 60 dias para analisar o processo, podendo ser concluído em mais ou menos tempo, recomendamos enviar o pedido com pelo menos 90 dias de antecedência.',
+        'Sim. Temos várias unidades por todo o Brasil e nossos programas educacionais são todos presenciais.',
     },
     {
-      title: 'Quais os documentos necessários?',
+      title: 'Quanto custa o programa de Oratória?',
       subtitle:
-        'Os documentos dependem do tipo de visto a ser solicitado, por esse motivo, está incluso no serviço de assessoria a orientação em relação aos documentos necessários, não se preocupe, pois vamos te orientar e tirar todas as suas dúvidas para obtenção dos mesmos.',
+        'Depende do que você está buscando. Você irá passar por um processo seletivo, com um de nossos consultores, para entendermos qual o seu nível de entendimento ou dificuldade em se comunicar no trabalho, na vida e nas relações interpessoais.',
     },
     {
-      title: 'Como é a assessoria para o pedido de visto?',
+      title: 'Quanto tempo dura o programa de Oratória?',
       subtitle:
-        'Na assessoria, eu vou te orientar em relação aos documentos necessários, vou conferir todos para garantir que estão conforme as exigências do Consulado. Enquanto você obtém os documentos, eu vou preencher todos os formulários para o pedido de visto e ao final, quando tudo estiver em mãos, faremos uma reunião para organizar o envelope com os documentos para envio ao Consulado. Após o envio do pedido, vou acompanhar o processo até o final e orientarei para esclarecimentos ao Consulado caso seja necessário.',
+        'Depende do programa pelo qual você foi orientado a fazer, de acordo com a sua necessidade. Podendo ser de 2 dias até 8 meses.',
     },
     {
-      title: 'Posso usar carta convite?',
+      title: 'Quantas vezes por semana o programa é feito?',
       subtitle:
-        'Sim, a carta convite pode ser utilizada para substituir o comprovante de hospedagem e em alguns casos, poderá ser utilizada para comprovar os meios de subsistência exigidos.',
+        'Depende, pode ser 1 vez por semana ou somente 1 final de semana.',
+    },
+    {
+      title: 'Tem certificado de conclusão do programa de Oratória?',
+      subtitle:
+        'Sim. Todos os nossos programas tem certificados reconhecidos nacionalmente.',
     },
   ]
 
   return (
     <>
-      <section className="bg-white">
+      <section>
         <div className="mx-auto py-12 px-4 pb-8 sm:max-w-6xl md:max-w-6xl md:px-24 lg:max-w-6xl lg:px-8 lg:pb-8">
           <div className="max-w-xl sm:mx-auto lg:max-w-4xl">
             <div className="mb-10 max-w-xl sm:text-center md:mx-auto md:mb-12 lg:max-w-4xl">
               <div className="mx-auto text-center">
+                <div>
+                  <span className="inline-block h-1 w-40 rounded-full bg-brandYellow"></span>
+                  <span className="ml-1 inline-block h-1 w-3 rounded-full bg-brandYellow"></span>
+                  <span className="ml-1 inline-block h-1 w-1 rounded-full bg-brandYellow"></span>
+                </div>
                 <div className="mx-auto max-w-4xl space-y-5 px-4 py-2 text-center">
                   <h2
                     className={`${montserrat.className} antialiased uppercase text-3xl font-semibold text-brandGray800 text-center sm:text-4xl`}
@@ -39,9 +49,9 @@ export function Faq() {
                     Faq de <Span2> Perguntas e Respostas</Span2>
                   </h2>
                   <p
-                    className={`${montserrat.className} text-center font-medium text-brandGray800 pt-2`}
+                    className={`${montserrat.className} text-center font-medium text-brandGray800`}
                   >
-                    Informações mais comuns para você.
+                    Principais dúvidas sobre o programa de Oratória.
                   </p>
                 </div>
               </div>
@@ -53,13 +63,13 @@ export function Faq() {
                 <div
                   key={idx}
                   tabIndex={0}
-                  className="collapse collapse-arrow rounded-lg bg-brandYellow shadow-brandGray800/30 shadow-md"
+                  className="collapse collapse-arrow rounded-lg bg-gradient-to-l from-brandCyan/80 to-brandCyan/10 shadow-brandGray800/20 shadow-l-md"
                 >
                   <input type="checkbox" aria-label="checkbox" />
-                  <div className="collapse-title font-sans font-bold text-brandGray800">
+                  <div className="collapse-title font-sans font-bold text-cyan-950">
                     {item.title}
                   </div>
-                  <div className="collapse-content font-sans text-sm font-semibold text-brandGray800/90">
+                  <div className="collapse-content font-sans text-sm font-semibold text-cyan-950/80">
                     <p>{item.subtitle}</p>
                   </div>
                 </div>

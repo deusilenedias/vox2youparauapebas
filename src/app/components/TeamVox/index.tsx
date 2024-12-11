@@ -45,7 +45,12 @@ export function TeamVox() {
         <div className="max-w-6xl mx-auto px-4 md:px-8">
           <div className="mx-auto text-center">
             <div>
-              <div className="max-w-5xl mx-auto text-center px-4">
+              <span className="inline-block h-1 w-40 rounded-full bg-brandYellow"></span>
+              <span className="ml-1 inline-block h-1 w-3 rounded-full bg-brandYellow"></span>
+              <span className="ml-1 inline-block h-1 w-1 rounded-full bg-brandYellow"></span>
+            </div>
+            <div>
+              <div className="max-w-5xl pt-4 mx-auto text-center px-4">
                 <h2
                   className={`${montserrat.className} antialiased uppercase text-3xl font-semibold text-brandGray50 text-center sm:text-4xl`}
                 >

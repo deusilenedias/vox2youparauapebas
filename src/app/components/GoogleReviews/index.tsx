@@ -105,14 +105,16 @@ export function GoogleReviews() {
 
   return (
     <>
-      <section className="bg-white">
+      <section>
         <div className="py-12 max-w-6xl mx-auto px-4 md:px-8">
           <div className="mx-auto">
             <div className="max-w-6xl mx-auto px-4 flex-wrap gap-x-12 justify-between items-center md:flex lg:flex-nowrap">
               <div className="max-w-6xl space-y-3">
-                <h3 className="text-brandCyan uppercase text-sm font-semibold">
-                  Google Review
-                </h3>
+                <div>
+                  <span className="inline-block h-1 w-40 rounded-full bg-brandYellow"></span>
+                  <span className="ml-1 inline-block h-1 w-3 rounded-full bg-brandYellow"></span>
+                  <span className="ml-1 inline-block h-1 w-1 rounded-full bg-brandYellow"></span>
+                </div>
                 <div className="max-w-5xl mx-auto text-left">
                   <h2
                     className={`${montserrat.className} antialiased uppercase text-3xl font-semibold text-brandGray800 sm:text-4xl`}
@@ -124,7 +126,7 @@ export function GoogleReviews() {
               <div className="flex-none mt-12 text-white lg:mt-0">
                 <ul className="grid grid-cols-1 gap-8 items-center justify-center">
                   <li>
-                    <div className="border-t-4 border-t-brandYellow rounded-lg bg-white backdrop-blur-sm shadow-lg shadow-brandGray800/30 p-4">
+                    <div className="border-t-4 border-t-brandYellow rounded-lg bg-white/30 backdrop-blur-sm shadow-lg shadow-brandGray800/30 p-4">
                       <div className="text-center flex items-center">
                         <Image
                           sizes="100vh"

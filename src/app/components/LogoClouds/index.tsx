@@ -8,25 +8,24 @@ import imgLogo6 from '../../../../public/logo-empresas/sicredi2.webp'
 import imgLogo7 from '../../../../public/logo-empresas/itau2.webp'
 import imgLogo8 from '../../../../public/logo-empresas/tvoeste.webp'
 import { montserrat } from '@/app/fonts'
-import { Span1 } from '../Hero/HeroComponents'
+import { Span2 } from '../Hero/HeroComponents'
 
 export function LogoClouds() {
   return (
     <>
-      <section className="bg-white">
+      <section>
         <div className="py-14">
           <div className="max-w-6xl mx-auto px-8 sm:px-12">
             <div className="max-w-6xl mx-auto text-left">
               <div>
-                <span className="inline-block h-1 w-40 rounded-full bg-brandCyan"></span>
-                <span className="ml-1 inline-block h-1 w-3 rounded-full bg-brandCyan"></span>
-                <span className="ml-1 inline-block h-1 w-1 rounded-full bg-brandCyan"></span>
+                <span className="inline-block h-1 w-40 rounded-full bg-brandYellow"></span>
+                <span className="ml-1 inline-block h-1 w-3 rounded-full bg-brandYellow"></span>
+                <span className="ml-1 inline-block h-1 w-1 rounded-full bg-brandYellow"></span>
               </div>
-              <span className="text-left text-brandGray800">Conheça</span>
               <h2
                 className={`${montserrat.className} pt-2 antialiased uppercase text-3xl font-semibold text-brandGray800 text-center sm:text-left sm:text-4xl`}
               >
-                Empresas que <Span1> confiam na Vox2you</Span1>
+                Empresas que <Span2> confiam na Vox2you</Span2>
               </h2>
             </div>
             <div className="mt-12 flex justify-center">

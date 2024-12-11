@@ -1,5 +1,4 @@
 import { ComponentProps } from 'react'
-import { montserrat } from '@/app/fonts'
 
 export interface HeroComponents {
   className: string
@@ -57,7 +56,7 @@ type HeroCardH1Props = ComponentProps<'h1'>
 export function HeroCardH1(props: HeroCardH1Props) {
   return (
     <h1
-      className={`${montserrat.className} antialiased mt-0 sm:mt-4 pb-2 text-3xl font-bold text-white drop-shadow-lg sm:text-4xl`}
+      className="antialiased mt-0 sm:mt-4 pb-2 text-3xl font-medium text-white drop-shadow-lg sm:text-4xl"
       {...props}
     />
   )
@@ -69,16 +68,10 @@ export function Span1(props: Span1Props) {
   return <span className="font-extrabold text-brandYellow" {...props} />
 }
 
-type SpanYellowProps = ComponentProps<'span'>
-
-export function SpanYellow(props: SpanYellowProps) {
-  return <span className="font-extrabold text-cyan-700" {...props} />
-}
-
 type Span2Props = ComponentProps<'span'>
 
 export function Span2(props: Span2Props) {
-  return <span className="font-extrabold text-brandGray800" {...props} />
+  return <span className="font-extrabold text-cyan-700" {...props} />
 }
 
 type HeroCardP1Props = ComponentProps<'p'>

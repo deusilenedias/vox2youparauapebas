@@ -21,11 +21,12 @@ import { Gallery } from './components/Gallery'
 import { Stats } from './components/Stats'
 import { Benefits } from './components/Benefits'
 import { Vox } from './components/Vox'
-import { LogoClouds } from './components/LogoClouds'
+// import { LogoClouds } from './components/LogoClouds'
 import { Autority } from './components/Autority'
-import { TeamVox } from './components/TeamVox'
+// import { TeamVox } from './components/TeamVox'
 import { GoogleReviews } from './components/GoogleReviews'
 import { Faq } from './components/Faq'
+import { Footer } from './components/Footer'
 
 export default function Home() {
   return (
@@ -74,10 +75,11 @@ export default function Home() {
       <Autority />
       <Gallery />
       <Vox />
-      <LogoClouds />
-      <TeamVox />
+      {/* <LogoClouds /> */}
+      {/* <TeamVox /> */}
       <GoogleReviews />
       <Faq />
+      <Footer />
       <ButtonFloatWttp />
     </>
   )

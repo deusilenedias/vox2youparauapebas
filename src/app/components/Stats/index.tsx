@@ -24,16 +24,18 @@ export function Stats() {
     <>
       <StatsSection>
         <div className="mt-16 sm:mt-4">
-          <dl className="grid grid-cols-1 gap-10 rounded-lg p-8 px-16 py-8 bg-brandGray800/60 backdrop-blur-sm shadow-*-sm shadow-brandGray800/10 sm:grid-cols-3">
+          <dl className="grid grid-cols-1 gap-10 rounded-lg p-8 px-16 py-8 bg-brandGray50/30 backdrop-blur-lg shadow-*-lg shadow-brandGray800/20 sm:grid-cols-3">
             {features.map((item, idx) => (
               <div key={idx} className="flex flex-col text-center">
                 <dt className="mx-auto justify-center pb-4">
-                  <span className="h-8 w-8 text-brandYellow">{item.icon}</span>
+                  <span className="h-8 w-8 drop-shadow-lg text-white">
+                    {item.icon}
+                  </span>
                 </dt>
-                <dd className="text-2xl font-extrabold text-brandGray50 md:text-3xl">
+                <dd className="text-2xl font-extrabold text-brandYellow drop-shadow-lg md:text-2xl">
                   {item.head}
                 </dd>
-                <dt className="order-last text-lg font-bold text-white sm:text-sm">
+                <dt className="order-last text-lg font-bold text-white sm:text-sm drop-shadow-lg">
                   {item.title}
                 </dt>
               </div>
