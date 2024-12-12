@@ -23,7 +23,7 @@ import { Benefits } from './components/Benefits'
 import { Vox } from './components/Vox'
 // import { LogoClouds } from './components/LogoClouds'
 import { Autority } from './components/Autority'
-// import { TeamVox } from './components/TeamVox'
+import { TeamVox } from './components/TeamVox'
 import { GoogleReviews } from './components/GoogleReviews'
 import { Faq } from './components/Faq'
 import { Footer } from './components/Footer'
@@ -76,7 +76,7 @@ export default function Home() {
       <Gallery />
       <Vox />
       {/* <LogoClouds /> */}
-      {/* <TeamVox /> */}
+      <TeamVox />
       <GoogleReviews />
       <Faq />
       <Footer />

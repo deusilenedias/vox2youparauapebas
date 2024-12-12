@@ -4,6 +4,9 @@ import Image from 'next/image'
 import geyzon from '../../../../public/timevox/geyzon.jpeg'
 import deusi from '../../../../public/timevox/deusi.jpeg'
 import thais from '../../../../public/timevox/thais.jpeg'
+import mila from '../../../../public/timevox/mila.jpeg'
+import vini from '../../../../public/timevox/vini.jpeg'
+import paula from '../../../../public/timevox/paula.jpeg'
 
 export function TeamVox() {
   const team = [
@@ -22,21 +25,21 @@ export function TeamVox() {
       name: 'Thaís Barreto',
       title: 'Comercial/Vendas Vox2You Parauapebas/PA',
     },
-    // {
-    //   avatar: geyzon,
-    //   name: 'Lysa sandiago',
-    //   title: 'Head of designers',
-    // },
-    // {
-    //   avatar: geyzon,
-    //   name: 'Daniel martin',
-    //   title: 'Product designer',
-    // },
-    // {
-    //   avatar: geyzon,
-    //   name: 'Vicky tanson',
-    //   title: 'Product manager',
-    // },
+    {
+      avatar: mila,
+      name: 'Milany Lopes',
+      title: 'Facilitadora Vox2You Parauapebas/PA',
+    },
+    {
+      avatar: vini,
+      name: 'Vinicios Lopes',
+      title: 'Facilitador Vox2You Parauapebas/PA',
+    },
+    {
+      avatar: paula,
+      name: 'Paula Nunes',
+      title: 'Administração/Financeiro Vox2You Parauapebas/PA',
+    },
   ]
 
   return (
