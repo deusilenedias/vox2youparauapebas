@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { montserrat } from '@/app/fonts'
 import img6 from '../../../../public/blabla.png'
-import { CheckFat, X } from '@phosphor-icons/react/dist/ssr'
+import { X } from '@phosphor-icons/react/dist/ssr'
 export function Universty() {
   return (
     <>
