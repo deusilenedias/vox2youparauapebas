@@ -125,7 +125,7 @@ type HeroCardP3Props = ComponentProps<'p'>
 export function HeroCardP3(props: HeroCardP3Props) {
   return (
     <p
-      className="pb-1 pt-4 text-sm leading-relaxed text-brandGray800 font-bold text-center sm:text-right md:text-lg"
+      className="pb-1 pt-4 text-sm leading-relaxed text-brandGray800 font-bold text-center sm:text-left md:text-lg"
       {...props}
     />
   )
