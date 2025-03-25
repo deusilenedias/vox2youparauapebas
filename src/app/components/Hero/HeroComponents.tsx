@@ -74,6 +74,14 @@ export function Span2(props: Span2Props) {
   return <span className="font-extrabold text-cyan-700" {...props} />
 }
 
+type Span3Props = ComponentProps<'span'>
+
+export function Span3(props: Span3Props) {
+  return (
+    <span className="bg-brandCyan font-extrabold text-brandGray50" {...props} />
+  )
+}
+
 type HeroCardP1Props = ComponentProps<'p'>
 
 export function HeroCardP1(props: HeroCardP1Props) {
@@ -117,7 +125,7 @@ type HeroCardP3Props = ComponentProps<'p'>
 export function HeroCardP3(props: HeroCardP3Props) {
   return (
     <p
-      className="pb-1 pt-4 text-sm leading-relaxed text-brandGray800 text-center sm:text-left md:text-lg"
+      className="pb-1 pt-4 text-sm leading-relaxed text-brandGray800 font-bold text-center sm:text-right md:text-lg"
       {...props}
     />
   )

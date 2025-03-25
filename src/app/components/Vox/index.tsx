@@ -43,7 +43,7 @@ export function Vox() {
               </p>
             </div>
 
-            <div className="h-auto max-w-6xl w-full items-center object-cover">
+            {/* <div className="h-auto max-w-6xl w-full items-center object-cover">
               <LiteYouTubeEmbed
                 webp={true}
                 adNetwork={true}
@@ -67,7 +67,7 @@ export function Vox() {
                 rel="preload"
                 title="Alunos"
               />
-            </div>
+            </div> */}
 
             <div className="h-auto max-w-6xl w-full items-center object-cover">
               <LiteYouTubeEmbed
@@ -135,8 +135,8 @@ export function Vox() {
             </div>
           </div>
           <div className="mx-auto max-w-fit pt-10 text-center sm:pt-12">
-            <ButtonHome href="https://api.whatsapp.com/send?phone=5594981342011&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informações%20sobre%20oratória">
-              <ButtonHomeText>Quero mais informações</ButtonHomeText>
+            <ButtonHome href="https://api.whatsapp.com/send?phone=5594984481297&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informações%20sobre%20oratória">
+              <ButtonHomeText>Quero saber mais</ButtonHomeText>
               <ButtonHomeFlex>
                 <WhatsappLogo
                   className="h-5 w-5 sm:h-6 sm:w-6 fill-white drop-shadow-lg"

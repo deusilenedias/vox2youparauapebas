@@ -4,7 +4,7 @@ import { montserrat } from '@/app/fonts'
 import Image from 'next/image'
 import imgAcademy from '../../../../public/programas/academy.webp'
 import imgMaster from '../../../../public/programas/master.webp'
-import imgIntensivox from '../../../../public/programas/intensivox.webp'
+import imgKidseTeens from '../../../../public/programas/kidseteens.webp'
 import { CursorClick } from '@phosphor-icons/react/dist/ssr'
 
 export function Benefits() {
@@ -32,7 +32,7 @@ export function Benefits() {
           <div className="relative mx-auto pt-4 sm:pt-2">
             <ul className="grid gap-8 sm:grid-cols-1 lg:grid-cols-3">
               <li>
-                <Link href="https://api.whatsapp.com/send?phone=5594981342011&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Academy">
+                <Link href="https://api.whatsapp.com/send?phone=5594984481297&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Academy">
                   <article className="group rounded-lg shadow-lg shadow-brandCyan/60 transition hover:shadow-lg hover:shadow-brandCyan">
                     <div className="overflow-hidden rounded-t-lg">
                       <Image
@@ -63,7 +63,7 @@ export function Benefits() {
                 </Link>
               </li>
               <li>
-                <Link href="https://api.whatsapp.com/send?phone=5594981342011&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Master">
+                <Link href="https://api.whatsapp.com/send?phone=5594984481297&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Master">
                   <article className="group shadow-lg shadow-brandCreme/60 rounded-lg transition hover:shadow-lg hover:shadow-brandCreme">
                     <div className="overflow-hidden rounded-t-lg">
                       <Image
@@ -94,12 +94,12 @@ export function Benefits() {
               </li>
 
               <li>
-                <Link href="https://api.whatsapp.com/send?phone=5594981342011&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Intensivox">
+                <Link href="https://api.whatsapp.com/send?phone=5594984481297&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Intensivox">
                   <article className="shadow-lg shadow-brandPurple/60 group rounded-lg transition hover:shadow-lg hover:shadow-brandPurple">
                     <div className="overflow-hidden rounded-t-lg">
                       <Image
                         alt="Intensivox"
-                        src={imgIntensivox}
+                        src={imgKidseTeens}
                         className="h-56 w-full object-cover group-hover:duration-150 group-hover:scale-125"
                         sizes="100vh"
                         loading="lazy"
@@ -108,7 +108,7 @@ export function Benefits() {
                     <div className="group-hover:bg-brandPurple group-hover:transition group-hover:rounded-b-lg p-4 sm:p-6">
                       <div className="flex justify-center gap-3 items-center">
                         <h3 className="mt-0.5 text-lg text-center font-semibold uppercase text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
-                          Intensivox
+                          Kids e Teens
                         </h3>
                         <CursorClick
                           className="fill-brandGray800 group-hover:fill-brandGray50"
@@ -116,8 +116,8 @@ export function Benefits() {
                         />
                       </div>
                       <p className="text-center mt-2 line-clamp-3 text-sm/relaxed text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
-                        Mergulhe intensivamente naquilo que realmente importa
-                        para mudar o mundo e as pessoas: você.
+                        Invista em quem você ama. Seu filho (a) estará em um
+                        ambiente seguro, acessível e acolhedor.
                       </p>
                     </div>
                   </article>

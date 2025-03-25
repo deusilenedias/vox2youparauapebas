@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import LogoVox from '../../../../public/logo-vox-colorida.webp'
+import LogoVox10anos from '../../../../public/vox2you10anos.webp'
 import Link from 'next/link'
 import { InstagramLogo, WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 
@@ -25,8 +25,8 @@ export function Footer() {
               alt="Logo"
               sizes="100vh"
               loading="lazy"
-              src={LogoVox}
-              className="w-48 sm:mx-auto"
+              src={LogoVox10anos}
+              className="w-64 sm:mx-auto"
             />
           </div>
           {/* 
@@ -49,12 +49,12 @@ export function Footer() {
                         68515-000
                       </p>
                     </Link>
-                    <Link href="https://api.whatsapp.com/send?phone=5594981342011&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20orat%C3%B3ria">
+                    <Link href="https://api.whatsapp.com/send?phone=5594984481297&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20orat%C3%B3ria">
                       <p className="font-semibold pt-2 text-brandGray50">
                         Whatsapp
                       </p>
                       <p className="text-xs text-brandGray50">
-                        (094) 98134-2011
+                        (94) 98448-1297
                       </p>
                     </Link>
                   </li>
@@ -77,7 +77,7 @@ export function Footer() {
 
             <li>
               <Link
-                href="https://api.whatsapp.com/send?phone=5594981342011&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20orat%C3%B3ria"
+                href="https://api.whatsapp.com/send?phone=5594984481297&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20orat%C3%B3ria"
                 className="text-brandCyan transition hover:text-brandCyan/75"
               >
                 <span className="sr-only">Whatsapp</span>

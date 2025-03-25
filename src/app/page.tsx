@@ -3,14 +3,14 @@ import { ButtonFloatWttp } from './components/Buttons'
 import {
   HeroCard,
   HeroCardH1,
-  HeroCardP2,
+  HeroCardP3,
   HeroCardText,
   HeroImgProperty,
   HeroProperty,
   HeroSection,
   Span1,
 } from './components/Hero/HeroComponents'
-import LogoVoBranca from '/public/logo-vox-branca.png'
+import Logo10anos from '/public/vox2you10anos.webp'
 import {
   ButtonHome,
   ButtonHomeFlex,
@@ -21,12 +21,12 @@ import { Gallery } from './components/Gallery'
 import { Stats } from './components/Stats'
 import { Benefits } from './components/Benefits'
 import { Vox } from './components/Vox'
-// import { LogoClouds } from './components/LogoClouds'
 import { Autority } from './components/Autority'
 import { TeamVox } from './components/TeamVox'
 import { GoogleReviews } from './components/GoogleReviews'
 import { Faq } from './components/Faq'
 import { Footer } from './components/Footer'
+import { Professions } from './components/Professions'
 
 export default function Home() {
   return (
@@ -36,7 +36,7 @@ export default function Home() {
           <HeroCard>
             <HeroImgProperty>
               <Image
-                src={LogoVoBranca}
+                src={Logo10anos}
                 width={500}
                 height={500}
                 className="h-auto w-64 sm:h-auto sm:w-72"
@@ -46,20 +46,20 @@ export default function Home() {
             </HeroImgProperty>
             <HeroCardText>
               <HeroCardH1>
-                Você já perdeu oportunidades por não saber se comunicar bem?{' '}
-                {''}
-                <Span1>
-                  Domine a arte de falar em público e transforme sua vida!
-                </Span1>
+                Desenvolva a habilidade que nenhuma faculdade ensina e que o
+                mercado implora por ela:
+                <Span1> a arte da comunicação poderosa!</Span1>
               </HeroCardH1>
-              <HeroCardP2>
-                São mais de 80 técnicas e 120 dinâmicas para você falar em
-                público sem nervosismo paralisante. Mas, com a orientação certa,
-                esse medo pode ser transformado em confiança e eloquência.
-              </HeroCardP2>
+              <HeroCardP3>
+                <span className="bg-brandYellow">
+                  90 horas intensas, 80 técnicas avançadas e 120 dinâmicas
+                  transformadoras: bem-vindo à academia suprema da oratória e
+                  reinvente sua forma de comunicar.
+                </span>
+              </HeroCardP3>
             </HeroCardText>
-            <ButtonHome href="https://api.whatsapp.com/send?phone=5594981342011&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informações%20sobre%20oratória">
-              <ButtonHomeText>Quero mais informações</ButtonHomeText>
+            <ButtonHome href="https://api.whatsapp.com/send?phone=5594984481297&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informações%20sobre%20oratória">
+              <ButtonHomeText>Quero saber mais</ButtonHomeText>
               <ButtonHomeFlex>
                 <WhatsappLogo
                   className="h-5 w-5 sm:h-6 sm:w-6 fill-white drop-shadow-lg"
@@ -71,6 +71,7 @@ export default function Home() {
         </HeroProperty>
         <Stats />
       </HeroSection>
+      <Professions />
       <Benefits />
       <Autority />
       <Gallery />
