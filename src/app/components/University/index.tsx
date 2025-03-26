@@ -70,7 +70,7 @@ export function Universty() {
                 <p
                   className={`${montserrat.className} font-medium text-brandGray50`}
                 >
-                  Trava ao ter que entrar em conversas difífceis;
+                  Trava ao ter que entrar em conversas difíceis;
                 </p>
               </div>
 
