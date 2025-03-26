@@ -11,7 +11,7 @@ export function ButtonHome(props: ButtonHomeProps) {
     <div className="z-50 my-4 flex w-full justify-center sm:justify-start">
       <a
         aria-label="Contato Whatsapp"
-        className="focus:shadow-outline delay-0 inline-flex h-12 w-auto items-center justify-center rounded-lg shadow-*-lg shadow-brandGray800/20 bg-brandCyan px-8 font-medium duration-75 ease-in-out hover:scale-105 focus:outline-none sm:h-14 md:w-auto"
+        className="focus:shadow-outline delay-0 inline-flex h-12 w-auto items-center justify-center rounded-full shadow-*-lg shadow-brandGray800/20 bg-brandCyan px-8 font-medium duration-75 ease-in-out hover:scale-105 focus:outline-none sm:h-14 md:w-auto"
         {...props}
       />
     </div>

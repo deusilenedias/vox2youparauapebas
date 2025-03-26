@@ -4,6 +4,8 @@ import Image from 'next/image'
 import geyzon from '../../../../public/timevox/geyzon.jpeg'
 import deusi from '../../../../public/timevox/deusi.jpeg'
 import thais from '../../../../public/timevox/thais.jpeg'
+import eurielia from '../../../../public/timevox/eurielia.jpeg'
+import juliana from '../../../../public/timevox/juliana.jpeg'
 import mila from '../../../../public/timevox/mila.jpeg'
 import vini from '../../../../public/timevox/vini.jpeg'
 import paula from '../../../../public/timevox/paula.jpeg'
@@ -23,6 +25,16 @@ export function TeamVox() {
     {
       avatar: thais,
       name: 'Thaís Barreto',
+      title: 'Líder Comercial/Vendas Vox2You Parauapebas/PA',
+    },
+    {
+      avatar: eurielia,
+      name: 'Euriélia Batista',
+      title: 'Comercial/Vendas Vox2You Parauapebas/PA',
+    },
+    {
+      avatar: juliana,
+      name: 'Juliana Vasconcelos',
       title: 'Comercial/Vendas Vox2You Parauapebas/PA',
     },
     {

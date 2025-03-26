@@ -1,62 +1,58 @@
 import Link from 'next/link'
-import { Span2 } from '../Hero/HeroComponents'
 import { montserrat } from '@/app/fonts'
 import Image from 'next/image'
-import imgAcademy from '../../../../public/programas/academy.webp'
-import imgMaster from '../../../../public/programas/master.webp'
-import imgKidseTeens from '../../../../public/programas/kidseteens.webp'
-import { CursorClick } from '@phosphor-icons/react/dist/ssr'
+import imgMaterial from '../../../../public/programas/material-academy.webp'
+import imgTecnicas from '../../../../public/programas/tecnicas.jpg'
+import imgPraticas from '../../../../public/programas/praticas.jpg'
+import imgMentorias from '../../../../public/programas/mentorias.jpg'
 
 export function Benefits() {
   return (
     <>
-      <section>
+      <section className="bg-brandGray800">
         <div className="mx-auto max-w-6xl px-9 py-8 md:px-8">
           <div className="mx-auto max-w-4xl space-y-5 px-4 py-8 text-center">
             <h2
-              className={`${montserrat.className} antialiased text-3xl text-brandGray800 font-semibold uppercase text-center sm:text-4xl`}
+              className={`${montserrat.className} antialiased text-3xl text-brandGray50 font-semibold uppercase text-center sm:text-4xl`}
             >
-              Nós criamos as melhores rotas, {''}
-              <Span2>
-                {' '}
-                mas a decisão de transformação está dentro de você.
-              </Span2>
+              O que te espera na Vox2you {''}
             </h2>
             <p
-              className={`${montserrat.className} font-medium text-brandGray800`}
+              className={`${montserrat.className} font-medium text-brandGray50`}
             >
-              Conheça alguns dos nossos programas de transformação pessoal.
+              Projetamos um conteúdo programático e um espaço completamente
+              dedicado ao networking e à prática, tudo focado na transformação
+              genuína de cada um de nossos alunos.
             </p>
           </div>
 
           <div className="relative mx-auto pt-4 sm:pt-2">
-            <ul className="grid gap-8 sm:grid-cols-1 lg:grid-cols-3">
+            <ul className="grid gap-8 sm:grid-cols-1 lg:grid-cols-2">
               <li>
                 <Link href="https://api.whatsapp.com/send?phone=5594984481297&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Academy">
                   <article className="group rounded-lg shadow-lg shadow-brandCyan/60 transition hover:shadow-lg hover:shadow-brandCyan">
                     <div className="overflow-hidden rounded-t-lg">
                       <Image
                         alt="Academy"
-                        src={imgAcademy}
+                        src={imgMaterial}
                         className="h-56 w-full object-cover group-hover:duration-150 group-hover:scale-125"
                         sizes="100vh"
                         loading="lazy"
                       />
                     </div>
-                    <div className="group-hover:bg-brandCyan group-hover:transition group-hover:rounded-b-lg p-4 sm:p-6">
+                    <div className="bg-brandCyan transition-all rounded-b-lg p-4 sm:p-6">
                       <div className="flex justify-center gap-3 items-center">
-                        <h3 className="mt-0.5 text-lg text-center font-semibold uppercase text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
-                          Academy
+                        <h3 className="mt-0.5 text-lg text-center font-semibold uppercase text-brandGray50">
+                          <span className="bg-brandGray800">
+                            Material didático de ponta
+                          </span>
                         </h3>
-                        <CursorClick
-                          className="fill-brandGray800 group-hover:fill-brandGray50"
-                          weight="fill"
-                        />
                       </div>
-                      <p className="text-center mt-2 line-clamp-3 text-sm/relaxed text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
-                        Viva o desenvolvimento humano de forma contínua, levando
-                        para dentro da sala de aula suas vivências pessoais,
-                        alcançando uma mudança de dentro para fora.
+                      <p className="text-center mt-2 line-clamp-3 text-sm/relaxed text-brandGray50">
+                        Os materiais didáticos Vox2you são mais do que livros.
+                        Eles estão totalmente integrados a recursos
+                        tecnológicos, oferecendo ao aluno aplicativos e
+                        conteúdos exclusivos.
                       </p>
                     </div>
                   </article>
@@ -68,25 +64,25 @@ export function Benefits() {
                     <div className="overflow-hidden rounded-t-lg">
                       <Image
                         alt="Master"
-                        src={imgMaster}
+                        src={imgTecnicas}
                         className="h-56 w-full object-cover group-hover:duration-150 group-hover:scale-125"
                         sizes="100vh"
                         loading="lazy"
                       />
                     </div>
-                    <div className="group-hover:bg-brandCreme group-hover:transition group-hover:rounded-b-lg p-4 sm:p-6">
+                    <div className="bg-brandCreme transition-all rounded-b-lg p-4 sm:p-6">
                       <div className="flex justify-center gap-3 items-center">
-                        <h3 className="mt-0.5 text-lg text-center font-semibold uppercase text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
-                          Master
+                        <h3 className="mt-0.5 text-lg text-center font-semibold uppercase text-brandGray50">
+                          <span className="bg-brandGray800">
+                            Técnicas exclusivas
+                          </span>
                         </h3>
-                        <CursorClick
-                          className="fill-brandGray800 group-hover:fill-brandGray50"
-                          weight="fill"
-                        />
                       </div>
-                      <p className="text-center mt-2 line-clamp-3 text-sm/relaxed text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
-                        Use o tempo a seu favor e de forma estratégica com a sua
-                        vida para elevar ainda mais o seu nível no mercado.
+                      <p className="text-center mt-2 line-clamp-3 text-sm/relaxed text-brandGray50">
+                        Aprenda a utilizar as melhores técnicas de oratória,
+                        como por exemplo, linguagem corporal, modulação de voz,
+                        contato visual, ferramentas de persuasão e estruturação
+                        de discursos.
                       </p>
                     </div>
                   </article>
@@ -99,25 +95,53 @@ export function Benefits() {
                     <div className="overflow-hidden rounded-t-lg">
                       <Image
                         alt="Intensivox"
-                        src={imgKidseTeens}
+                        src={imgPraticas}
                         className="h-56 w-full object-cover group-hover:duration-150 group-hover:scale-125"
                         sizes="100vh"
                         loading="lazy"
                       />
                     </div>
-                    <div className="group-hover:bg-brandPurple group-hover:transition group-hover:rounded-b-lg p-4 sm:p-6">
+                    <div className="bg-brandPurple transition-all rounded-b-lg p-4 sm:p-6">
                       <div className="flex justify-center gap-3 items-center">
-                        <h3 className="mt-0.5 text-lg text-center font-semibold uppercase text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
-                          Kids e Teens
+                        <h3 className="mt-0.5 text-lg text-center font-semibold uppercase text-brandGray50">
+                          <span className="bg-brandGray800">
+                            Práticas desde a primeira aula
+                          </span>
                         </h3>
-                        <CursorClick
-                          className="fill-brandGray800 group-hover:fill-brandGray50"
-                          weight="fill"
-                        />
                       </div>
-                      <p className="text-center mt-2 line-clamp-3 text-sm/relaxed text-brandGray800 group-hover:text-brandGray50 group-hover:transition-colors">
-                        Invista em quem você ama. Seu filho (a) estará em um
-                        ambiente seguro, acessível e acolhedor.
+                      <p className="text-center mt-2 line-clamp-3 text-sm/relaxed text-brandGray50">
+                        Nada de timidez ou vergonha por estar começando. Aqui
+                        sua mudança acontece desde o primeiro minuto em sala de
+                        aula.
+                      </p>
+                    </div>
+                  </article>
+                </Link>
+              </li>
+
+              <li>
+                <Link href="https://api.whatsapp.com/send?phone=5594984481297&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Intensivox">
+                  <article className="shadow-lg shadow-brandYellow/60 group rounded-lg transition hover:shadow-lg hover:shadow-brandYellow">
+                    <div className="overflow-hidden rounded-t-lg">
+                      <Image
+                        alt="Intensivox"
+                        src={imgMentorias}
+                        className="h-56 w-full object-cover group-hover:duration-150 group-hover:scale-125"
+                        sizes="100vh"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div className="bg-brandYellow transition-all rounded-b-lg p-4 sm:p-6">
+                      <div className="flex justify-center gap-3 items-center">
+                        <h3 className="mt-0.5 text-lg text-center font-semibold uppercase text-brandGray50">
+                          <span className="bg-brandGray800">
+                            Mentorias individuais
+                          </span>
+                        </h3>
+                      </div>
+                      <p className="text-center mt-2 line-clamp-3 text-sm/relaxed text-brandGray800">
+                        Você ganhará 4 mentorias com o seu facilitador. Esse é o
+                        seu espaço para solucionar dúvidas e definir metas.
                       </p>
                     </div>
                   </article>

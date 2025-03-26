@@ -2,13 +2,14 @@ import Image from 'next/image'
 import { montserrat } from '@/app/fonts'
 import img6 from '../../../../public/blabla.png'
 import { X } from '@phosphor-icons/react/dist/ssr'
+import { Span4 } from '../Hero/HeroComponents'
 export function Universty() {
   return (
     <>
       <div className="mx-auto max-w-6xl px-4 pt-20 md:flex md:px-8">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:items-center md:gap-8">
           <div className="space-y-8 container max-w-3xl mx-auto">
-            <div className="relative">
+            <div className="relative text-center">
               <div className="flex">
                 <div className="flex-[0_0_100%] aspect-video w-full overflow-hidden">
                   <Image
@@ -20,6 +21,7 @@ export function Universty() {
                   />
                 </div>
               </div>
+              <Span4>Não, não é meme.</Span4>
             </div>
           </div>
           <div>
@@ -36,7 +38,7 @@ export function Universty() {
                 comunicação ao seu favor no mercado de trabalho e na vida,
                 afinal você:
               </h2>
-              <div className="flex gap-2 items-center justify-end pt-2">
+              <div className="flex gap-2 items-center justify-center sm:justify-end pt-2">
                 <X weight="bold" className="text-red-600 w-5 h-5" />
                 <p
                   className={`${montserrat.className} font-medium text-brandGray50`}
@@ -45,7 +47,7 @@ export function Universty() {
                 </p>
               </div>
 
-              <div className="flex gap-2 items-center justify-end pt-2">
+              <div className="flex gap-2 items-center justify-center sm:justify-end pt-2">
                 <X weight="bold" className="text-red-600 w-5 h-5" />
                 <p
                   className={`${montserrat.className} font-medium text-brandGray50`}
@@ -54,7 +56,7 @@ export function Universty() {
                 </p>
               </div>
 
-              <div className="flex gap-2 items-center justify-end pt-2">
+              <div className="flex gap-2 items-center justify-center sm:justify-end pt-2">
                 <X weight="bold" className="text-red-600 w-5 h-5" />
                 <p
                   className={`${montserrat.className} font-medium text-brandGray50`}
@@ -63,7 +65,7 @@ export function Universty() {
                 </p>
               </div>
 
-              <div className="flex gap-2 items-center justify-end pt-2">
+              <div className="flex gap-2 items-center justify-center sm:justify-end pt-2">
                 <X weight="bold" className="text-red-600 w-5 h-5" />
                 <p
                   className={`${montserrat.className} font-medium text-brandGray50`}
@@ -72,7 +74,7 @@ export function Universty() {
                 </p>
               </div>
 
-              <div className="flex gap-2 items-center justify-end pt-2">
+              <div className="flex gap-2 items-center justify-center sm:justify-end pt-2">
                 <X weight="bold" className="text-red-600 w-5 h-5" />
                 <p
                   className={`${montserrat.className} font-medium text-brandGray50`}

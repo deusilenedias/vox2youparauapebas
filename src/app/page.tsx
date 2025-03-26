@@ -27,6 +27,8 @@ import { GoogleReviews } from './components/GoogleReviews'
 import { Faq } from './components/Faq'
 import { Footer } from './components/Footer'
 import { Professions } from './components/Professions'
+import { NowYourTime } from './components/NowYourTime'
+import { YouAble } from './components/YouAble'
 
 export default function Home() {
   return (
@@ -72,7 +74,9 @@ export default function Home() {
         <Stats />
       </HeroSection>
       <Professions />
+      <NowYourTime />
       <Benefits />
+      <YouAble />
       <Autority />
       <Gallery />
       <Vox />
