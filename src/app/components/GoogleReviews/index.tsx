@@ -212,7 +212,9 @@ export function GoogleReviews() {
             ))}
           </div>
           <div className="mx-auto max-w-fit px-4 pt-4 text-center sm:pt-12">
-            <ButtonHome href="https://api.whatsapp.com/send?phone=5594984481297&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informações%20sobre%20oratória">
+            <ButtonHome
+              href={`https://wa.me/5594984481297?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
+            >
               <ButtonHomeText>Quero saber mais</ButtonHomeText>
               <ButtonHomeFlex>
                 <WhatsappLogo

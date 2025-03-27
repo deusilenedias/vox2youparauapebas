@@ -49,7 +49,9 @@ export function Footer() {
                         68515-000
                       </p>
                     </Link>
-                    <Link href="https://api.whatsapp.com/send?phone=5594984481297&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20orat%C3%B3ria">
+                    <Link
+                      href={`https://wa.me/5594984481297?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
+                    >
                       <p className="font-semibold pt-2 text-brandGray50">
                         Whatsapp
                       </p>
@@ -77,7 +79,7 @@ export function Footer() {
 
             <li>
               <Link
-                href="https://api.whatsapp.com/send?phone=5594984481297&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informa%C3%A7%C3%B5es%20sobre%20orat%C3%B3ria"
+                href={`https://wa.me/5594984481297?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
                 className="text-brandCyan transition hover:text-brandCyan/75"
               >
                 <span className="sr-only">Whatsapp</span>

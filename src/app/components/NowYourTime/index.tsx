@@ -25,7 +25,9 @@ export function NowYourTime() {
                   <Span5>influenciar pessoas!</Span5>
                 </HeroCardP4>
               </div>
-              <ButtonHome href="https://api.whatsapp.com/send?phone=5594984481297&text=Ol%C3%A1%20vim%20pelo%20site%20e%20quero%20mais%20informações%20sobre%20oratória">
+              <ButtonHome
+                href={`https://wa.me/5594984481297?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
+              >
                 <ButtonHomeText>Quero me desenvolver</ButtonHomeText>
                 <ButtonHomeFlex>
                   <WhatsappLogo
