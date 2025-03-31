@@ -6,7 +6,7 @@ export function Stats() {
     {
       icon: <Smiley size={44} weight="fill" />,
       title: 'Vidas Tranformadas',
-      head: 'Mais de 80.000',
+      head: 'Mais de 100.000',
     },
     {
       icon: <Note size={44} weight="fill" />,
