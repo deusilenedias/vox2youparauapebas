@@ -9,7 +9,7 @@ type StatsSectionProps = ComponentProps<'section'>
 export function StatsSection(props: StatsSectionProps) {
   return (
     <section
-      className="relative z-50 mx-auto -mt-28 px-8 py-12 -mb-20 sm:-mt-32 max-w-6xl"
+      className="z-50 mx-auto -mt-28 px-8 py-12 -mb-20 sm:-mt-32 max-w-6xl"
       {...props}
     />
   )
