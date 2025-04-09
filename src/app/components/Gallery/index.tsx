@@ -16,7 +16,7 @@ export function Gallery() {
                   <span className="ml-1 inline-block h-1 w-1 rounded-full bg-brandYellow"></span>
                 </div>
                 <h2
-                  className={`${montserrat.className} antialiased uppercase text-3xl font-semibold text-brandGray800 text-center sm:text-left sm:text-4xl`}
+                  className={`${montserrat.className} antialiased uppercase text-2xl font-semibold text-brandGray800 text-center sm:text-left sm:text-3xl`}
                 >
                   A oratória é uma habilidade{' '}
                   <Span2> que pode ser treinada</Span2>

@@ -32,7 +32,7 @@ export function Universty() {
                 <span className="ml-1 inline-block h-1 w-1 rounded-full bg-brandGray50"></span>
               </div>
               <h2
-                className={`${montserrat.className} antialiased uppercase text-2xl font-semibold text-brandGray50 text-center sm:text-right sm:text-3xl`}
+                className={`${montserrat.className} antialiased uppercase text-2xl font-semibold text-white text-center sm:text-right sm:text-3xl`}
               >
                 A faculdade pode te ensinar muitas coisas, menos usar a
                 comunicação ao seu favor no mercado de trabalho e na vida,
@@ -40,45 +40,35 @@ export function Universty() {
               </h2>
               <div className="flex gap-2 items-center justify-center sm:justify-end pt-2">
                 <X weight="bold" className="text-red-600 w-5 h-5" />
-                <p
-                  className={`${montserrat.className} font-medium text-brandGray50`}
-                >
+                <p className={`${montserrat.className} font-medium text-white`}>
                   Tem medo de falar em público;
                 </p>
               </div>
 
               <div className="flex gap-2 items-center justify-center sm:justify-end pt-2">
                 <X weight="bold" className="text-red-600 w-5 h-5" />
-                <p
-                  className={`${montserrat.className} font-medium text-brandGray50`}
-                >
+                <p className={`${montserrat.className} font-medium text-white`}>
                   Nunca tem argumentos convincentes;
                 </p>
               </div>
 
               <div className="flex gap-2 items-center justify-center sm:justify-end pt-2">
                 <X weight="bold" className="text-red-600 w-5 h-5" />
-                <p
-                  className={`${montserrat.className} font-medium text-brandGray50`}
-                >
+                <p className={`${montserrat.className} font-medium text-white`}>
                   Não consegue persuadir nem seus amigos;
                 </p>
               </div>
 
               <div className="flex gap-2 items-center justify-center sm:justify-end pt-2">
                 <X weight="bold" className="text-red-600 w-5 h-5" />
-                <p
-                  className={`${montserrat.className} font-medium text-brandGray50`}
-                >
+                <p className={`${montserrat.className} font-medium text-white`}>
                   Trava ao ter que entrar em conversas difíceis;
                 </p>
               </div>
 
               <div className="flex gap-2 items-center justify-center sm:justify-end pt-2">
                 <X weight="bold" className="text-red-600 w-5 h-5" />
-                <p
-                  className={`${montserrat.className} font-medium text-brandGray50`}
-                >
+                <p className={`${montserrat.className} font-medium text-white`}>
                   Só fala e não tem paciência em ouvir.
                 </p>
               </div>

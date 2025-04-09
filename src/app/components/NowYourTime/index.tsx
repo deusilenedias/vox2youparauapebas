@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import orador from '../../../../public/orador.png'
+import imgOrador from '../../../../public/orador.png'
 import { HeroCardP4, Span5 } from '../Hero/HeroComponents'
 import {
   ButtonHome,
@@ -37,13 +37,13 @@ export function NowYourTime() {
                 </ButtonHomeFlex>
               </ButtonHome>
             </div>
-            <div className="container max-w-3xl justify-end">
+            <div className="container max-w-3xl justify-end z-50">
               <div className="relative">
                 <div className="flex">
                   <div className="flex-[0_0_100%] aspect-square w-full">
                     <Image
-                      src={orador}
-                      alt="orador"
+                      src={imgOrador}
+                      alt="Imagem Orador"
                       width={500}
                       height={500}
                       loading="lazy"

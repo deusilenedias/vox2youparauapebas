@@ -56,7 +56,7 @@ type HeroCardH1Props = ComponentProps<'h1'>
 export function HeroCardH1(props: HeroCardH1Props) {
   return (
     <h1
-      className="antialiased mt-0 sm:mt-4 pb-2 text-3xl font-medium text-white drop-shadow-lg sm:text-4xl"
+      className="antialiased mt-0 sm:mt-4 pb-2 text-2xl font-medium text-white drop-shadow-lg sm:text-3xl"
       {...props}
     />
   )
@@ -147,7 +147,7 @@ type HeroCardP3Props = ComponentProps<'p'>
 export function HeroCardP3(props: HeroCardP3Props) {
   return (
     <p
-      className="pb-1 pt-4 text-sm leading-relaxed text-brandGray800 font-bold text-center sm:text-left md:text-lg"
+      className="pb-1 pt-4 text-sm leading-relaxed text-brandGray800 font-medium text-center sm:text-left md:text-lg"
       {...props}
     />
   )
