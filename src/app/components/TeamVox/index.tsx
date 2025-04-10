@@ -94,9 +94,9 @@ export function TeamVox() {
                     />
                   </div>
                   <div className="mt-4">
-                    <h4 className="text-lg text-brandYellow font-semibold">
+                    <h1 className="text-lg text-brandYellow font-semibold">
                       {item.name}
-                    </h4>
+                    </h1>
                     <p className="text-brandGray50">{item.title}</p>
                   </div>
                 </li>
