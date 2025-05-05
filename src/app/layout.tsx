@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { montserrat } from '@/app/fonts'
 import Script from 'next/script'
+
 import './globals.css'
 
 const GTM_ID = 'GTM-NV68CDXH'
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
   title: 'Vox2You Parauapebas/PA - O Melhor Curso de Oratória para Você',
   description: 'Vox2You | Escola de Oratória',
 }
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -25,26 +27,30 @@ export default function RootLayout({
         })(window,document,'script','dataLayer','${GTM_ID}');
         `}
       </Script>
+
       <body
         suppressHydrationWarning={true}
         className={`${montserrat.className} antialiased bg-brandGray50`}
       >
         <main>
           {children}
+          <Script
+            src="//www.clarity.ms/tag/reuogveczj"
+            strategy="afterInteractive"
+          >
+            {`
+        (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "reuogveczj");
+        `}
+          </Script>
           <noscript
             dangerouslySetInnerHTML={{
               __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}" height="0" width="0" style="display: none; visibility: hidden;"></iframe>`,
             }}
           />
-          <Script id="clarity-script" strategy="afterInteractive">
-            {`
-            (function(c,l,a,r,i,t,y){
-                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-            })(window, document, "clarity", "script", "${process.env.NEXT_PUBLIC_CLARITY_PROJECT_ID}");
-          `}
-          </Script>
         </main>
       </body>
     </html>
