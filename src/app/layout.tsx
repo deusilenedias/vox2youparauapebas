@@ -27,6 +27,10 @@ export default function RootLayout({
         })(window,document,'script','dataLayer','${GTM_ID}');
         `}
       </Script>
+      <Script
+        src="//www.clarity.ms/tag/reuogveczj"
+        strategy="afterInteractive"
+      />
       <body
         suppressHydrationWarning={true}
         className={`${montserrat.className} antialiased bg-brandGray50`}
