@@ -5,7 +5,7 @@ export function Stats() {
   const features = [
     {
       icon: <Smiley size={44} weight="fill" />,
-      title: 'Vidas Tranformadas',
+      title: 'Vidas Transformadas',
       head: 'Mais de 100.000',
     },
     {
