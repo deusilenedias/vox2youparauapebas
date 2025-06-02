@@ -71,7 +71,7 @@ export function YouAble() {
             </div>
             <div className="mx-auto max-w-fit pt-10 text-center sm:pt-12">
               <ButtonHome
-                href={`https://wa.me/5594984481297?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
+                href={`https://wa.me/5594981342011?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
               >
                 <ButtonHomeText>Sou o oposto dessa pessoa</ButtonHomeText>
                 <ButtonHomeFlex>

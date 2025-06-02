@@ -213,7 +213,7 @@ export function GoogleReviews() {
           </div>
           <div className="mx-auto max-w-fit px-4 pt-4 text-center sm:pt-12">
             <ButtonHome
-              href={`https://wa.me/5594984481297?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
+              href={`https://wa.me/5594981342011?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
             >
               <ButtonHomeText>Quero saber mais</ButtonHomeText>
               <ButtonHomeFlex>

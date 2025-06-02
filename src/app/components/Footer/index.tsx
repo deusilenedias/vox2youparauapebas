@@ -50,7 +50,7 @@ export function Footer() {
                       </p>
                     </Link>
                     <Link
-                      href={`https://wa.me/5594984481297?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
+                      href={`https://wa.me/5594981342011?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
                     >
                       <p className="font-semibold pt-2 text-brandGray50">
                         Whatsapp
@@ -79,7 +79,7 @@ export function Footer() {
 
             <li>
               <Link
-                href={`https://wa.me/5594984481297?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
+                href={`https://wa.me/5594981342011?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
                 className="text-brandCyan transition hover:text-brandCyan/75"
               >
                 <span className="sr-only">Whatsapp</span>

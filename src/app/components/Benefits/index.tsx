@@ -30,7 +30,7 @@ export function Benefits() {
             <ul className="grid gap-8 sm:grid-cols-1 lg:grid-cols-2">
               <li>
                 <Link
-                  href={`https://wa.me/5594984481297?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
+                  href={`https://wa.me/5594981342011?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
                 >
                   <article className="group rounded-lg shadow-lg shadow-brandCyan/60 transition hover:shadow-lg hover:shadow-brandCyan">
                     <div className="overflow-hidden rounded-t-lg">
@@ -62,7 +62,7 @@ export function Benefits() {
               </li>
               <li>
                 <Link
-                  href={`https://wa.me/5594984481297?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
+                  href={`https://wa.me/5594981342011?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
                 >
                   <article className="group shadow-lg shadow-brandCreme/60 rounded-lg transition hover:shadow-lg hover:shadow-brandCreme">
                     <div className="overflow-hidden rounded-t-lg">
@@ -95,7 +95,7 @@ export function Benefits() {
 
               <li>
                 <Link
-                  href={`https://wa.me/5594984481297?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
+                  href={`https://wa.me/5594981342011?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
                 >
                   <article className="shadow-lg shadow-brandPurple/60 group rounded-lg transition hover:shadow-lg hover:shadow-brandPurple">
                     <div className="overflow-hidden rounded-t-lg">
@@ -127,7 +127,7 @@ export function Benefits() {
 
               <li>
                 <Link
-                  href={`https://wa.me/5594984481297?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
+                  href={`https://wa.me/5594981342011?text=Olá+vim+pelo+site+e+gostaria+de+mais+informações`}
                 >
                   <article className="shadow-lg shadow-brandYellow/60 group rounded-lg transition hover:shadow-lg hover:shadow-brandYellow">
                     <div className="overflow-hidden rounded-t-lg">
