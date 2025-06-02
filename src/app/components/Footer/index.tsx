@@ -56,7 +56,7 @@ export function Footer() {
                         Whatsapp
                       </p>
                       <p className="text-xs text-brandGray50">
-                        (94) 98448-1297
+                        (94) 98134-2011
                       </p>
                     </Link>
                   </li>
