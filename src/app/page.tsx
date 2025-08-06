@@ -83,7 +83,7 @@ export default function Home() {
       <Gallery />
       <Vox />
       {/* <LogoClouds /> */}
-      <TeamVox />
+      {/* <TeamVox /> */}
       <GoogleReviews />
       <Faq />
       <Footer />
